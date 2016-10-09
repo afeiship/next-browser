@@ -1,0 +1,27 @@
+{
+  "name": "next-webview-env",
+  "description": "Webview environment based on next.",
+  "main": "dist/next-webview-env.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-webview-env",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "next-js-core2": "afeiship/next-js-core2"
+  }
+}
