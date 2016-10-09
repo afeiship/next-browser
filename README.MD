@@ -36,3 +36,7 @@ console.log('isWebapp:',nx.browser.webapp);
 //language:
 console.log('lang:',nx.browser.language);
 ```
+
+
+## resources:
++ http://caibaojian.com/browser-ios-or-android.html
