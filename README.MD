@@ -24,3 +24,15 @@ language: (navigator.browserLanguage || navigator.language).toLowerCase()
 ```javascript
 (navigator.browserLanguage || navigator.language).toLowerCase()
 ```
+
++ call api:
+```javascript
+// env:
+console.log('isWebkit:',nx.browser.webkit);
+console.log('isQQ:',nx.browser.qq);
+console.log('isWechat:',nx.browser.wechat);
+console.log('isWebapp:',nx.browser.webapp);
+
+//language:
+console.log('lang:',nx.browser.language);
+```
