@@ -1,8 +1,8 @@
 {
-  "name": "next-webview-env",
+  "name": "next-browser",
   "version": "0.0.0",
   "description": "Webview environment based on next.",
-  "homepage": "https://github.com/afeiship/next-webview-env",
+  "homepage": "https://github.com/afeiship/next-browser",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
