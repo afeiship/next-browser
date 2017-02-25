@@ -37,6 +37,13 @@ console.log('isWebapp:',nx.browser.webapp);
 console.log('lang:',nx.browser.language);
 ```
 
++ use node:
+```javascript
+import nxBrowser from 'next-browser';
+console.log(nxBrowser.qq) // true| false
+```
+
+
 
 ## resources:
 + http://caibaojian.com/browser-ios-or-android.html
