@@ -1,4 +1,4 @@
-#next-webview-env
+#next-browser
 Webview environment based on next.
 
 
