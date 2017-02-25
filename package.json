@@ -7,6 +7,7 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
+  "main":"dist/next-browser.js",
   "scripts":{
     "build":"gulp build"
   },
