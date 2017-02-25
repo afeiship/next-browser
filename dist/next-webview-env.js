@@ -1,7 +1,7 @@
 (function(nx, global) {
 
   var navigator = global.navigator;
-  nx.declare('nx.browser', {
+  var Browser = nx.declare('nx.browser', {
     statics: {
       init: function() {
         var u = navigator.userAgent,
@@ -24,5 +24,9 @@
       }
     }
   });
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = Browser;
+  }
 
 }(nx, nx.GLOBAL));
