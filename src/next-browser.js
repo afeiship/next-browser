@@ -5,7 +5,7 @@
 	var docStyle = document.documentElement.style;
   var toString = Object.prototype.toString;
   var OBJECT_OPERA = '[object Opera]';
-  var prefixMap = {
+  var PREFIX_MAP = {
 		trident: 'ms',
 		gecko: 'Moz',
 		webkit: 'Webkit',
@@ -43,7 +43,7 @@
         return (navigator.browserLanguage || navigator.language).toLowerCase();
       },
       prefix: function(){
-        return prefixMap[Browser.engine()];
+        return PREFIX_MAP[Browser.engine()];
       }
     }
   });
