@@ -11,6 +11,15 @@
   "scripts": {
     "build": "gulp build"
   },
+  "keywords": [
+    "next",
+    "webview",
+    "env",
+    "browser",
+    "engine",
+    "language",
+    "platform"
+  ],
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
