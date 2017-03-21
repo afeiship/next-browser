@@ -1,4 +1,4 @@
-#next-browser
+# next-browser
 Webview environment based on next.
 
 
@@ -31,3 +31,6 @@ console.log(nxBrowser.qq) // true| false
 
 ## resources:
 + http://caibaojian.com/browser-ios-or-android.html
+
+## todos:
+- [ ] use lazy load brower env
