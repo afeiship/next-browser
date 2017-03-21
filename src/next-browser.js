@@ -5,6 +5,12 @@
 	var docStyle = document.documentElement.style;
   var toString = Object.prototype.toString;
   var OBJECT_OPERA = '[object Opera]';
+  var prefixMap = {
+		trident: 'ms',
+		gecko: 'Moz',
+		webkit: 'Webkit',
+		presto: 'O'
+	};
 
   var Browser = nx.declare('nx.Browser', {
     statics: {
@@ -35,6 +41,9 @@
       },
       language: function(){
         return (navigator.browserLanguage || navigator.language).toLowerCase();
+      },
+      prefix: function(){
+        return prefixMap[Browser.engine()];
       }
     }
   });

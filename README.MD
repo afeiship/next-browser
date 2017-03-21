@@ -7,15 +7,18 @@ Webview environment based on next.
 + call api:
 ```javascript
 // env:
-console.log('isQQ:',nx.browser.qq);
-console.log('isWechat:',nx.browser.wechat);
-console.log('isWebapp:',nx.browser.webapp);
+console.log('isQQ:',nx.Browser.qq);
+console.log('isWechat:',nx.Browser.wechat);
+console.log('isWebapp:',nx.Browser.webapp);
 
 //language:
-console.log('lang:',nx.browser.language());
+console.log('lang:',nx.Browser.language());
 
 //engine:
-console.log('engine:',nx.browser.engine());
+console.log('engine:',nx.Browser.engine());
+
+//prefix:
+console.log('prefix:',nx.Browser.prefix());
 ```
 
 + use node:
