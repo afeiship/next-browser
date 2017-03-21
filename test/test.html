@@ -9,16 +9,17 @@
 <body>
 
 
-  <script src="../bower_components/next-js-core2/dist/next-js-core2.js"></script>
+  <script src="../node_modules/next-js-core2/dist/next-js-core2.js"></script>
   <script src="../dist/next-browser.js"></script>
   <script>
-  console.log('isWebkit:',nx.browser.webkit);
-  console.log('isQQ:',nx.browser.qq);
-  console.log('isWechat:',nx.browser.wechat);
-  console.log('isWebapp:',nx.browser.webapp);
+
+  console.log('isQQ:',nx.Browser.qq);
+  console.log('isWechat:',nx.Browser.wechat);
+  console.log('isWebapp:',nx.Browser.webapp);
 
 
-  console.log('lang:',nx.browser.language);
+  console.log('lang:',nx.Browser.language());
+  console.log('engine:',nx.Browser.engine());
   </script>
 </body>
 </html>

@@ -7,19 +7,20 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "main":"dist/next-browser.js",
-  "scripts":{
-    "build":"gulp build"
+  "main": "dist/next-browser.js",
+  "scripts": {
+    "build": "gulp build"
   },
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
     "yargs": "^4.7.1"
   },
   "dependencies": {
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0"
+    "next-js-core2": "github:afeiship/next-js-core2"
   }
 }
