@@ -5,11 +5,19 @@
 	var docStyle = document.documentElement.style;
   var toString = Object.prototype.toString;
   var OBJECT_OPERA = '[object Opera]';
-  var PREFIX_MAP = {
+  var JS_PREFIX_MAP = {
 		trident: 'ms',
 		gecko: 'Moz',
 		webkit: 'Webkit',
 		presto: 'O'
+	};
+
+
+  var CSS_PREFIX_MAP = {
+		trident: '-ms-',
+		gecko: '-moz-',
+		webkit: '-webkit-',
+		presto: '-o-'
 	};
 
   var Browser = nx.declare('nx.Browser', {
@@ -42,8 +50,11 @@
       language: function(){
         return (navigator.browserLanguage || navigator.language).toLowerCase();
       },
-      prefix: function(){
-        return PREFIX_MAP[Browser.engine()];
+      jsPrefix: function(){
+        return JS_PREFIX_MAP[Browser.engine()];
+      },
+      cssPrefix: function(){
+        return CSS_PREFIX_MAP[Browser.engine()];
       }
     }
   });
