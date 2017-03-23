@@ -1,5 +1,6 @@
-(function(nx, global) {
+(function(global) {
 
+  var nx = global.nx || require('next-js-core2');
   var navigator = global.navigator;
   var UA = navigator.userAgent;
 	var docStyle = document.documentElement.style;
@@ -63,4 +64,4 @@
     module.exports = Browser;
   }
 
-}(nx, nx.GLOBAL));
+}(this));
