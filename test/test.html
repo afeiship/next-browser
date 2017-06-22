@@ -10,7 +10,7 @@
 
 
   <script src="../node_modules/next-js-core2/dist/next-js-core2.js"></script>
-  <script src="../dist/next-browser.js"></script>
+  <script src="../src/next-browser.js"></script>
   <script>
 
   console.log('isQQ:',nx.Browser.qq);
@@ -20,7 +20,12 @@
 
   console.log('lang:',nx.Browser.language());
   console.log('engine:',nx.Browser.engine());
-  console.log('prefix:',nx.Browser.prefix());
+  console.log('js prefix:',nx.Browser.jsPrefix());
+  console.log('css prefix:',nx.Browser.cssPrefix());
+
+
+  alert(JSON.stringify(nx.Browser.os));
+  alert(JSON.stringify(nx.Browser.browser));
   </script>
 </body>
 </html>
