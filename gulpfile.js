@@ -2,22 +2,14 @@
 
   'use strict';
 
-  var path = require('path');
-  var gulp = require('gulp');
-  var argv = require('yargs').argv;
-  var fs = require('fs');
-  var $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del']
-  });
+  const gulp = require('gulp');
+  const fs = require('fs');
 
   //import
-  fs.readdirSync('./gulp').map(function(file) {
-    require('./gulp/' + file);
+  fs.readdirSync('./build').map(function(file) {
+    require('./build/' + file);
   });
 
-
-  gulp.task('default',['clean'],function () {
-    gulp.start(['build']);
-  });
+  gulp.task('default',['build']);
 
 }());

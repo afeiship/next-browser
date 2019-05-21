@@ -1,8 +1,12 @@
 # next-browser
-Webview environment based on next.
+> Webview environment based on next
 
+## installation
+```bash
+npm install -S afeiship/next-browser --registry=https://registry.npm.taobao.org
+```
 
-## usage:
+## usage
 + nx.Brwower.language()
 + call api:
 ```javascript
@@ -23,14 +27,11 @@ console.log('prefix:',nx.Browser.prefix());
 
 + use node:
 ```javascript
-import nxBrowser from 'next-browser';
-console.log(nxBrowser.qq) // true| false
+import NxBrowser from 'next-browser';
+console.log(NxBrowser.qq) // true| false
 ```
 
 
 
 ## resources:
 + http://caibaojian.com/browser-ios-or-android.html
-
-## todos:
-- [ ] use lazy load brower env

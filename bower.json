@@ -1,19 +1,13 @@
 {
   "name": "next-browser",
-  "description": "Webview environment based on next.",
+  "description": "Webview environment based on next",
   "main": "dist/next-browser.js",
   "authors": [
     "afei"
   ],
   "license": "MIT",
   "keywords": [
-    "next",
-    "webview",
-    "env",
-    "browser",
-    "engine",
-    "language",
-    "platform"
+    "next"
   ],
   "homepage": "https://github.com/afeiship/next-browser",
   "moduleType": [
@@ -25,9 +19,8 @@
     "bower_components",
     "test",
     "tests",
-    "src"
-  ],
-  "dependencies": {
-    "next-js-core2": "afeiship/next-js-core2"
-  }
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
 }
