@@ -1,3 +1,10 @@
+/*!
+ * name: next-browser
+ * url: https://github.com/afeiship/next-browser
+ * version: 1.0.0
+ * license: MIT
+ */
+
 (function() {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
