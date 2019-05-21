@@ -31,7 +31,5 @@ import NxBrowser from 'next-browser';
 console.log(NxBrowser.qq) // true| false
 ```
 
-
-
-## resources:
+## resources
 + http://caibaojian.com/browser-ios-or-android.html
